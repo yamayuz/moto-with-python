@@ -1,0 +1,11 @@
+version: '3.7'
+services:
+
+  moto-test:
+    build:
+      context: .
+      dockerfile: ./docker/Dockerfile
+    command: bash
+    tty: true
+    volumes:
+      - ./:/var/moto_practice
