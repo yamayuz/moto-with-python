@@ -6,6 +6,6 @@
 * [mypyで静的型チェックを導入する](https://ohke.hateblo.jp/entry/2020/10/03/230000)
 
 ## test
-mypy src
-flake8
-pytest tests/test.py
+mypy src  
+flake8  
+pytest tests/test.py  
